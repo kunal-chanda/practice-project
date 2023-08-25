@@ -54,8 +54,35 @@ button{
 }
 
 .userList{
-  height: 200px;
-  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.userDiv{
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: black;
-  border-width: 2px;
+  border-style: solid;
+  text-align: left;
+}
+.userDetail{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ width: fit-content;
+}
+.todoDetail{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ width: 200px;
+ word-wrap: initial;
+}
+.errorDiv{
+  background-color: bisque;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
 }
